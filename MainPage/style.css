@@ -7,7 +7,6 @@
 .container{
 	width: 90%;
 	margin: 0 auto;
-	
 }
 .navbar{
 	width: 100%;
@@ -40,10 +39,10 @@
 	display: block;
 }
 .menu li:hover{
-	background: #81766d;
+	background: #7395AE;
 }
 .menu li a:hover{
-	color: #b4a599;
+	color: rgb(204, 204, 204);
 }
 .menu a:hover{
 	color: #000;
@@ -51,14 +50,14 @@
 }
 body
 {
-	background: #b1a296;
+	background: #81766d;
 }
 
 h1
 {
 	text-align: center;
 	margin: 50px auto 100px;
-	color:#557A95;
+	color:#ffffff;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .box-area
@@ -144,7 +143,7 @@ h1
 .about-section {
 	padding: 1px;
 	text-align: center;
-	background-color: #5D5C61;
+	background-color: #81766d;
 	color: white;
 	font-family: "Lucida Console", "Courier New", monospace;
 }
