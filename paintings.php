@@ -1,12 +1,4 @@
-<?php
-include "db.php";
-include "layout/header.php";
-if(!$loggedIn)
-{
-    header("Location: login.php");
-}
 
-?>
 <html>
     <body>
         <form action="add.php" method="post" enctype="multipart/form-data">
