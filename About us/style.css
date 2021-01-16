@@ -13,7 +13,7 @@
 	overflow: hidden;
 	height: 70px;
 	line-height: 70px;
-	background: #B1A296;
+	background: #ffffff;
 }
 .logo{
 	width: 200px;
@@ -39,10 +39,10 @@
 	display: block;
 }
 .menu li:hover{
-	background: #81766d;
+	background: #7395AE;
 }
 .menu li a:hover{
-	color: #b4a599;
+	color: rgb(204, 204, 204);
 }
 .menu a:hover{
 	color: #000;
@@ -50,14 +50,14 @@
 }
 body
 {
-	background: #5D5C61;
+	background: #81766d;
 }
 
 h1
 {
 	text-align: center;
 	margin: 50px auto 100px;
-	color:#557A95;
+	color:#ffffff;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .box-area
@@ -143,7 +143,7 @@ h1
 .about-section {
 	padding: 1px;
 	text-align: center;
-	background-color: #5D5C61;
+	background-color: #81766d;
 	color: white;
 	font-family: "Lucida Console", "Courier New", monospace;
 }
