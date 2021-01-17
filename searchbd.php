@@ -62,12 +62,13 @@ function print_text($row)
 {
     ?>
     <div class = "list">
-    <div class="cell" data-title="firstName"><?php echo($row['firstName']);?></div>
-    <div class="cell" data-title="middleName"><?php echo($row['middleName']);?></div>
-    <div class="cell" data-title="lastName"><?php echo($row['lastName']);?></div>
-    <div class="cell" data-title="position"><?php echo($row['position']);?></div>
-    <div class="cell" data-title="phoneNumber"><?php echo($row['phoneNumber']);?></div>
-    <div class="cell" data-title="email"><?php echo($row['email']);?></div>
+    ----------------------------------------------------------------------------
+    <div class="cell" data-title="firstName">Име- <?php echo($row['firstName']);?></div>
+    <div class="cell" data-title="middleName">Презиме- <?php echo($row['middleName']);?></div>
+    <div class="cell" data-title="lastName">Фамилия- <?php echo($row['lastName']);?></div>
+    <div class="cell" data-title="position">Дължност- <?php echo($row['position']);?></div>
+    <div class="cell" data-title="phoneNumber">Номер- <?php echo($row['phoneNumber']);?></div>
+    <div class="cell" data-title="email">Емайл- <?php echo($row['email']);?></div>
     </div>
 <?php
 }
@@ -199,6 +200,19 @@ if($choose == 1)
             print_text($row);
             admin($row);
         }
+    }
+    if($a == 0)
+    {
+        echo "няма намерени :c";
+    }
+}
+if($choose == 8)
+{
+    $a = 0;
+    while($row = $query->fetch_assoc()){
+            $a = 1;
+            print_text($row);
+            admin($row);
     }
     if($a == 0)
     {

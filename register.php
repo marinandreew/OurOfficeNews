@@ -2,50 +2,50 @@
 include "header.php";
 
 ?>
-<h1>Register</h1>
+<h1>Регистрация</h1>
 <form method="POST" action="login/user.php">
     <div class="form-group">
-        <label for="firstName">First name</label>
-        <input type="text" name="firstName" class="form-control" placeholder="Please enter your First Name" id="firstName"  required>
+        <label for="firstName">Собствено име</label>
+        <input type="text" name="firstName" class="form-control" placeholder="Напишете вашето собствено име" id="firstName"  required>
     </div>
     <div class="form-group">
-        <label for="middleName">Middle name</label>
-        <input type="text" name="middleName" class="form-control" placeholder="Please enter your Middle Name" id="middleName"  required>
+        <label for="middleName">Бащино име</label>
+        <input type="text" name="middleName" class="form-control" placeholder="Напишете вашето бащино име" id="middleName"  required>
     </div>
     <div class="form-group">
-        <label for="lastName">Last name</label>
-        <input type="text" name="lastName" class="form-control" placeholder="Please enter your Last Name" id="lastName"  required>
+        <label for="lastName">Фамилно име</label>
+        <input type="text" name="lastName" class="form-control" placeholder="Напишете вашето фамилно име" id="lastName"  required>
     </div>
     <div class="form-group">
-        <label for="username">Username</label>
-        <input type="text" name="username" class="form-control" placeholder="Please enter your Username" id="username"  required>
+        <label for="username">Потребителско име</label>
+        <input type="text" name="username" class="form-control" placeholder="Напишете вашето потребителско име" id="username"  required>
     </div>
     <div class="form-group">
-        <label for="position">Position</label>
-        <input type="text" name="position" class="form-control" placeholder="Please enter your position" id="position"  required>
+        <label for="position">Длъжност</label>
+        <input type="text" name="position" class="form-control" placeholder="Напишете вашата длъжност" id="position"  required>
     </div>
     <div class="form-group">
-        <label for="phoneNumber">Phone Number</label>
-        <input type="text" name="phoneNumber" class="form-control" placeholder="Please enter your Phone Number" id="phoneNumber"  required>
+        <label for="phoneNumber">Телефонен номер</label>
+        <input type="text" name="phoneNumber" class="form-control" placeholder="Напишете телефонният си номер" id="phoneNumber"  required>
     </div>
     <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" name="email" class="form-control" placeholder="Please enter your email" id="email"  required>
+        <label for="email">Имейл</label>
+        <input type="email" name="email" class="form-control" placeholder="Напишете вашият имейл" id="email"  required>
     </div>
     <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" name="password" class="form-control" placeholder="Please enter your password" id="password"  required>
+        <label for="password">Парола</label>
+        <input type="password" name="password" class="form-control" placeholder="Напишете вашата парола" id="password"  required>
     </div>
     <div class="form-group">
-        <label for="confirmPassword">Confirm Password</label>
-        <input type="password" name="confirmPassword" class="form-control" placeholder="Please enter your password again" id="confirmPassword"  required>
+        <label for="confirmPassword">Подтвърди парола</label>
+        <input type="password" name="confirmPassword" class="form-control" placeholder="Напишете вашата парола отново" id="confirmPassword"  required>
     </div>
     <div class="form-group">
-        <label for="department">Department</label>
-        <input type="department" name="department" class="form-control" placeholder="Please enter your Department" id="department"  required>
+        <label for="department">Отдел</label>
+        <input type="department" name="department" class="form-control" placeholder="Напишете вашият отдел" id="department"  required>
     </div>
     <div class="form-group">
-        <input type="submit" value="Register" class="btn btn-primary">
+        <input type="submit" value="Регестрирай" class="btn btn-primary">
         <input type="hidden" name="action" value="register">
     </div>
 </form>

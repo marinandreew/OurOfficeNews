@@ -2,7 +2,7 @@
 <html>
   <head>
         <title>Our Office News</title>
-        <link rel="stylesheet" href="css/header.css"/>
+        <link rel="stylesheet" href="css/header2.css"/>
   </head>
   <body>
     <div class="navbar">
@@ -31,7 +31,7 @@
                 <ul class="menu">
                     <li><a href="main.php">Начало</a></li>
                     <li><a href="search.php">Търсене</a></li>
-                    <li><a href="contact.php">Новини/работа</a></li>
+                    <li><a href="contact.php">Съобщение</a></li>
                     <li><a href="notification.php">Известия</a></li>
                     <li><a href="about.php">Контакти</a></li>
                     <li><a href="login/logout.php">Излизане</a></li>

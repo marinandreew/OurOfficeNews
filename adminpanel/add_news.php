@@ -7,8 +7,8 @@ include "../database/db.php";
  $news_type = filter_var(trim($_POST['news_type']), FILTER_SANITIZE_STRING);
  $user_id = '0';
  $db->query("INSERT INTO `news` (`user_id`, `title`, `description`, `news_type`) VALUES ('$user_id' , '$title', '$description','$news_type')");
-		if ($connection->error) {
-			printf("Errormessage: %s\n", $connection->error);
+		if ($db->error) {
+			printf("Errormessage: %s\n", $db->error);
 		}	 
 
 		header("Location: ../main.php");

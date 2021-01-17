@@ -13,7 +13,7 @@ include "header.php";
     <form method="POST" action="searchbd.php">
             <div class="search">
                 <p>Search</p>
-                <input type="text" name="search" maxlength="50" class="input-title" required>
+                <input type="text" name="search" maxlength="50" class="input-title">
                 <p>Choose:</p>
                 <div name="choose-div" class="choose-div">
                     <select id="choose" name="choose" class="select">
@@ -24,6 +24,7 @@ include "header.php";
                         <option value="5" data-marker="5">>Търси по длъжност</option>
                         <option value="6" data-marker="6">>Търси по телефон</option>
                         <option value="7" data-marker="7">>Търси по имейл</option>
+                        <option value="8" data-marker="8">>Изведи всички</option>
                     </select>
                 </div>
                 <input type="submit" name="button" value="Търси">
