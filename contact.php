@@ -8,7 +8,7 @@
   <body>
     <form method="POST" action="send.php">		
 		<input type="text" name="name" class="inputs" placeholder="title" required>
-		<input type="email" name="email" class="inputs" placeholder="username" required>
+		<input type="text" name="email" class="inputs" placeholder="username" required>
 		<textarea name="message" class="inputs" placeholder="Message" required></textarea>
 		<button type="submit">Send</button>
 	</form>
