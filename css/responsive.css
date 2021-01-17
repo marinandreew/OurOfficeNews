@@ -5,10 +5,8 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url(../images/green.jpg) no-repeat center /cover;
-    overflow: hidden;
-    background-position: center;
-    font-family: sans-serif;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8) no-repeat center /cover;
+	overflow: hidden;
 }
 form{
     position: absolute;

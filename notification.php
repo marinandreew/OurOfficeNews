@@ -1,6 +1,5 @@
 <?php
-include "database/db.php";
-include "login/functions.php";
+include "header.php";
 $userKey = $_COOKIE["user_key"];
 $userinfo = getUserByKey($userKey);
 $userinfo2 = $userinfo["username"];

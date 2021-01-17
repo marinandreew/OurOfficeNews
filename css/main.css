@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url(../images/green.jpg) no-repeat center /cover;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8) no-repeat center /cover;
 	overflow: hidden;
 	
 }
@@ -66,13 +66,7 @@ form{
 *{
 	box-sizing: border-box;
 }
-body{
-	margin: 0;
-	padding: 0;
-	height: 90vh;
-	background: url(../images/green.jpg)no-repeat center /cover;
-	overflow: hidden;
-}
+
 
 form{
 	position: absolute;

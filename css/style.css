@@ -4,6 +4,14 @@
 	font-family: sans-serif;
 	
 }
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8) no-repeat center /cover;
+	overflow: hidden;
+	
+}
 .container{
 	width: 90%;
 	margin: 0 auto;
@@ -48,10 +56,6 @@
 .menu a:hover{
 	color: #000;
     text-decoration:underline;
-}
-body
-{
-	background: #b1a296;
 }
 
 h1

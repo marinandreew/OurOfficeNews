@@ -12,6 +12,7 @@
         </div>
         <div class="navbar_links">
             <?php 
+            include "database/db.php";
             include "login/functions.php";
             $userKey = $_COOKIE["user_key"];
             $userinfo = getUserByKey($userKey);
@@ -40,8 +41,6 @@
             </div>
         </div>
     </div>
-    <div class="container1">
-        <img src="images/green.jpg" alt="Cinque Terre" width="1000" height="300">
-    </div>
+
 </body>
 </html>
