@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-position: center;
+    font-family: sans-serif;
+}
+form {  
+       width: 60%;  
+       height: 100%;
+       margin: -70px auto;  
+       background: transparent;  
+       padding: 60px 120px 80px 120px;  
+       text-align: center;  
+        
+    }
+.navbar{
+	width: 100%;
+	overflow: hidden;
+	height: 70px;
+	line-height: 70px;
+	background: #ffffff;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+.logo{
+	width: 200px;
+	float: left;
+}
+/*this is for ul tag*/
+.menu{
+	float: right;
+}
+.menu li{
+	float: left;
+	width: 120px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	list-style: none;
+}
+.menu li a{
+	color: #000;
+	text-decoration: none;
+	font-family: calibri;
+	display: block;
+}
+.menu li:hover{
+	background: #81766d;
+}
+.menu li a:hover{
+	color: #b4a599;
+}
+.menu a:hover{
+	color: #000;
+    text-decoration:underline;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 12px;   
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #557A95;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #379683;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+label {  
+      display: block;
+      position: relative;
+      margin: 40px 0px;
+}
+.label-txt {
+       position: absolute;
+       top: -1.6em;
+       padding: 10px;
+       font-family: sans-serif;
+       font-size: .8em;
+       letter-spacing: 1px;
+       color: rgb(120,120,120);
+       transition: ease .3s;
+}
+.input {
+       width: 100%;
+       padding: 10px;
+       background: transparent;
+       border: none;
+       outline: none;
+}
+.line-box {  
+      position: relative;
+      width: 100%;
+      height: 2px;
+      background: #BCBCBC;
+}
+.line {
+       position: absolute;
+       width: 0%;
+       height: 2px;
+       top: 0px;
+       left: 50%;
+       transform: translateX(-50%);
+       background: #8BC34A;
+       transition: ease .6s;
+}
+.input:focus + .line-box .line {
+       width: 100%;
+}
+.label-active {
+       top: -3em;
+}
+.button {
+       display: inline-block;
+       padding: 12px 24px;
+       background: rgb(220,220,220);
+       font-weight: bold;
+       color: rgb(120,120,120);
+       border: none;  outline: none;
+       border-radius: 20px;
+       cursor: pointer;
+       transition: ease .3s;
+}  
+.button:hover {
+       background: #557A95;
+       color: #B1A296;
+    }

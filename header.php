@@ -25,7 +25,7 @@
                     <li><a href="contact.php">Съобщение</a></li>
                     <li><a href="notification.php">Известия</a></li>
                     <li><a href="login/logout.php">Излизане</a></li>
-                    <li><a href="myProfile.php">Моят профил</a></li>
+                    <li><a href="register.php">Регистр</a></li>
                     </ul>
                 <?php } else{ ?>
                 <ul class="menu">
