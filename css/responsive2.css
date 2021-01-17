@@ -1,0 +1,22 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8) no-repeat center /cover;
+    overflow: hidden;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+h1[name="Welcome"]{
+    text-align: left;
+    color: #000;
+    font-size: xx-large;
+}
+h1{
+    text-align: left;
+    color: #000;
+    font-size: larger;
+    
+}

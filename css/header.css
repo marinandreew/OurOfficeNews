@@ -7,10 +7,9 @@
 body{
     margin: 0;
     padding: 0;
-	background: linear-gradient(45deg, #EECFBA, #C5DDE8);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8) no-repeat center /cover;
+
 }
 .container{
 	width: 90%;

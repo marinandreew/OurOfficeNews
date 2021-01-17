@@ -10,7 +10,6 @@ $db = new mysqli($config["host"], $config["username"], $config["password"], $con
 if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);
 }
-
 include "../login/functions.php";
 include "../login/checkLogin.php";
 ?>

@@ -2,7 +2,7 @@
 <html>
   <head>
         <title>Our Office News</title>
-        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/header.css"/>
   </head>
   <body>
     <div class="navbar">
@@ -18,26 +18,26 @@
             $userinfo = getUserByKey($userKey);
             
             if($userinfo["id"] == 10){ ?>
-            <ul class="menu">
-                <li><a href="main.php">Home</a></li>
-                <li><a href="adminpanel/search.php">Red users</a></li>
-                <li><a href="adminpanel/create_news.php">Add news and work</picture></picture></a></li>
-                <li><a href="contact.php">send message</a></li>
-                <li><a href="notification.php">notification</a></li>
-                <li><a href="login/logout.php">Log out</a></li>
-                <li><a href="login/myProfile.php">My profile</a></li>
-                </ul>    
-            <?php } else{ ?>
-            <ul class="menu">
-                <li><a href="main.php">Home</a></li>
-                <li><a href="adminpanel/search.php">search user</a></li>
-                <li><a href="contact.php">send message</a></li>
-                <li><a href="notification.php">notification</a></li>
-                <li><a href="about.php">Contact</a></li>
-                <li><a href="login/logout.php">Log out</a></li>
-                <li><a href="login/myProfile.php">My profile</picture></picture></a></li>
-                </ul>   
-            <?php } ?>                       
+                <ul class="menu">
+                    <li><a href="main.php">Начало</a></li>
+                    <li><a href="search.php">Търсене</a></li>
+                    <li><a href="create_news.php">Новини/работа</picture></picture></a></li>
+                    <li><a href="contact.php">Съобщение</a></li>
+                    <li><a href="notification.php">Известия</a></li>
+                    <li><a href="login/logout.php">Излизане</a></li>
+                    <li><a href="myProfile.php">Моят профил</a></li>
+                    </ul>
+                <?php } else{ ?>
+                <ul class="menu">
+                    <li><a href="main.php">Начало</a></li>
+                    <li><a href="search.php">Търсене</a></li>
+                    <li><a href="contact.php">Новини/работа</a></li>
+                    <li><a href="notification.php">Известия</a></li>
+                    <li><a href="about.php">Контакти</a></li>
+                    <li><a href="login/logout.php">Излизане</a></li>
+                    <li><a href="myProfile.php">Моят профил</picture></picture></a></li>
+                    </ul>
+                <?php } ?>             
             </div>
         </div>
     </div>

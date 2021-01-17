@@ -6,7 +6,9 @@ body{
     padding: 0;
     height: 100vh;
     background: linear-gradient(45deg, #EECFBA, #C5DDE8) no-repeat center /cover;
-	overflow: hidden;
+    overflow: hidden;
+    background-position: center;
+    font-family: sans-serif;
 }
 form{
     position: absolute;
@@ -19,50 +21,6 @@ form{
     border-radius: 7px;
 }
 
-.navbar{
-	width: 100%;
-	overflow: hidden;
-	height: 70px;
-	line-height: 70px;
-	background: #ffffff;
-}
-.container{
-	width: 90%;
-	margin: 0 auto;
-	
-}
-.logo{
-	width: 200px;
-	float: left;
-}
-/*this is for ul tag*/
-.menu{
-	float: right;
-}
-.menu li{
-	float: left;
-	width: 120px;
-	height: 70px;
-	line-height: 70px;
-	text-align: center;
-	list-style: none;
-}
-.menu li a{
-	color: #000;
-	text-decoration: none;
-	font-family: calibri;
-	display: block;
-}
-.menu li:hover{
-	background: #81766d;
-}
-.menu li a:hover{
-	color: #b4a599;
-}
-.menu a:hover{
-	color: #000;
-    text-decoration:underline;
-}
 .loginbox{
     width: 450px;
     height: 420px;
@@ -76,7 +34,6 @@ form{
     padding: 70px 70px;
     border-radius: 20px;
 }
-
 .avatar{
     width: 100px;
     height: 100px;

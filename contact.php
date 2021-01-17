@@ -9,13 +9,11 @@ include "header.php";
         <title>Our Office News</title>
   </head>
   <body>
-    <div class="container1">
     <form method="POST" action="send.php">		
-		<input type="text" name="name" class="inputs" placeholder="Заглавие" required>
-		<input type="email" name="email" class="inputs" placeholder="Username на получател" required>
-		<textarea name="message" class="inputs" placeholder="Съобщение" required></textarea>
+		<input type="text" name="name" class="inputs" placeholder="title" required>
+		<input type="text" name="email" class="inputs" placeholder="username" required>
+		<textarea name="message" class="inputs" placeholder="Message" required></textarea>
 		<button type="submit">Send</button>
 	</form>
-  </div>
 </body>
 </html>
