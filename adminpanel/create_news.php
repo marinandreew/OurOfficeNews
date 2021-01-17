@@ -1,7 +1,9 @@
-
+<?php
+include "../database/db.php";
+?>
 <html>
     <body>
-        <form action="add.php" method="post" enctype="multipart/form-data">
+        <form action="add_news.php" method="post" enctype="multipart/form-data">
             <h4 class="parametr">Параметри</h4>
             <p>Заглавие:</p>
             <input id="title" name="title" maxlength="50" class="input-title" required>

@@ -1,37 +1,15 @@
+<?php
+include "header.php";
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
         <title>OON - About Us</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css"/> 
+        <link rel="stylesheet" href="css/style.css"/> 
   </head>
   <body>
-    <div class="navbar">
-        <div class="container">
-            <div class="logo_div"> 
-                <a href="index.html"><img src="images/logo.png"  class="logo"></a>
-            </div>
-            <div class="navbdar_links">
-                <ul class="menu">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="myprofile.html" class="nav-link">My profile</a>
-                  </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About us</a>
-                    </li>
-                  <li class="nav-item">
-                    <a href="login.html" class="nav-link">Log in</a>
-                </li>
-                <li class="nav-item">
-                  <a href="registration.html" class="nav-link">Registration</a>
-              </li>
-                </ul>                               
-            </div>                            
-        </div>
-    </div>
     <div class="about-section">
       <h1>About Us</h1>
     </div>
